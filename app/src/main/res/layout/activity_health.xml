@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="geoff.andrewscardgameaddon.Health"
+    android:background="@drawable/city">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Positive"
+        android:onClick="positiveNegative"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/button3"
+        android:layout_above="@+id/button5"
+        android:layout_toLeftOf="@+id/textView11"
+        android:layout_toStartOf="@+id/textView11"
+        android:layout_marginBottom="39dp"
+
+        android:background="@drawable/buttonshape_two"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Negative"
+        android:textColor="#FFFFFF"
+        android:onClick="positiveNegative"
+        android:textSize="18sp"
+
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:id="@+id/button4"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:src="@drawable/collapse"
+        android:onClick="incrimentValues"
+        style="?android:attr/borderlessButtonStyle"
+
+        android:layout_above="@+id/textView"
+        android:layout_toLeftOf="@+id/textView11"
+        android:layout_toStartOf="@+id/textView11" />
+
+    <ImageButton
+        style="?android:attr/borderlessButtonStyle"
+        android:src="@drawable/collapse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:onClick="incrimentValues"
+        android:id="@+id/button6"
+        android:layout_alignTop="@+id/button5"
+        android:layout_alignLeft="@+id/button8"
+        android:layout_alignStart="@+id/button8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="#"
+        android:id="@+id/textView"
+        android:textSize="35sp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_alignTop="@+id/textView11"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="For"
+        android:id="@+id/textView11"
+        android:textSize="35sp"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="#"
+        android:id="@+id/textView12"
+        android:textSize="35sp"
+        android:textColor="#000000"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/textView13"
+        android:layout_toStartOf="@+id/textView13" />
+
+    <ImageButton
+        style="?android:attr/borderlessButtonStyle"
+        android:src="@drawable/expand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:onClick="incrimentValues"
+        android:id="@+id/button7"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_alignStart="@+id/button5" />
+
+    <ImageButton
+        style="?android:attr/borderlessButtonStyle"
+        android:src="@drawable/expand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:onClick="incrimentValues"
+        android:id="@+id/button8"
+        android:layout_below="@+id/textView11"
+        android:layout_toRightOf="@+id/textView11"
+        android:layout_toEndOf="@+id/textView11" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/button"
+        android:background="@drawable/abc_ab_share_pack_mtrl_alpha"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="closing"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/plus"
+        android:layout_below="@+id/button5"
+        android:layout_toLeftOf="@+id/button7"
+        android:layout_toStartOf="@+id/button7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" Turns"
+        android:id="@+id/textView13"
+        android:textSize="35sp"
+        android:textColor="#000000"
+        android:layout_below="@+id/button6"
+        android:layout_alignRight="@+id/button4"
+        android:layout_alignEnd="@+id/button4" />
+
+
+</RelativeLayout>
+
