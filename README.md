@@ -10,6 +10,6 @@ Project turned out to be a good example to showcase my expected coding style. An
 Example sippets
 ------
 
-<img src="http://imgur.com/a/fgmWX">
+<img src="https://cloud.githubusercontent.com/assets/9471177/25556454/a22d718e-2cb1-11e7-86b7-ba10d9656ad3.png">
 
 <img src="https://goo.gl/photos/kTx3RYMCLS2F8Ygr8">
