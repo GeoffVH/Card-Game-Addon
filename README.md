@@ -1,13 +1,15 @@
 # Card Game Addon
 
-<img src="http://www.roadtovr.com/wp-content/uploads/2014/12/google-cardboard-android-virtual-reality.jpg">
-
 Overview
 ------------
 
 App that helps calculate results for a custom card game created by a friend. Interface was built to be graphic and easy to use. 
 
-Project turned out to be a good example to showcase my expected coding style.  
+Project turned out to be a good example to showcase my expected coding style. An abstract data object was built to store all information, functions were refactored and re-used, and allfunctions had conscice documentation 
 
-Thanks
+Example sippets
 ------
+
+<img src="https://goo.gl/photos/66obif7LikzpZfpc7">
+
+<img src="https://goo.gl/photos/kTx3RYMCLS2F8Ygr8">
