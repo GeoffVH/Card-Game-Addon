@@ -12,4 +12,4 @@ Example sippets
 
 <img src="https://cloud.githubusercontent.com/assets/9471177/25556454/a22d718e-2cb1-11e7-86b7-ba10d9656ad3.png">
 
-<img src="https://goo.gl/photos/kTx3RYMCLS2F8Ygr8">
+<img src="https://cloud.githubusercontent.com/assets/9471177/25556461/c273d3e8-2cb1-11e7-9bde-91d67ea1413f.png">
