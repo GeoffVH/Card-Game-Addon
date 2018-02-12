@@ -5,7 +5,7 @@ Overview
 
 App that helps calculate results for a custom card game created by a friend. Interface was built to be graphic and easy to use. 
 
-Project showcases my expected coding style. An abstract data object was built to store all information, functions were refactored and re-used, and all functions had documentation. Code is built to be easy to follow, modular and easy to debug. 
+An abstract data object was built to store all information and all functions have documentation. Code is built to be easy to follow, reuse and debug. 
 
 Example sippets
 ------
